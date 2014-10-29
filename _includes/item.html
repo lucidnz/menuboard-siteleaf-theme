@@ -1,0 +1,9 @@
+<h1>{{ p.title }}</h1>
+  
+{% unless p.description == blank %}
+<p>{{ p.description }}</p>
+{% endunless %}
+
+{% for p in p.pages %}
+  {% include 'includes/item' %}
+{% endfor %}
