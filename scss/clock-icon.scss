@@ -1,0 +1,75 @@
+.animicon-clock {
+  border-radius: 50%;
+  border: 0.1em solid #fff;
+  height: 1em;
+  position: relative;
+  width: 1em;
+  font-size: 3em;
+  display: inline-block;
+}
+
+.animicon-clock:after {
+  background: #fff;
+  border-radius: 50%;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 9%;
+  height: 9%;
+  z-index: 10;
+}
+
+.animicon-minute-container, .animicon-hour-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.animicon-hour {
+  height: 25%;
+  top: 25%;
+}
+
+.animicon-minute {
+  height: 40%;
+  top: 10%;
+}
+
+.animicon-hour, .animicon-minute {
+  background: #fff;
+  position: absolute;
+  width: 10%;
+  left: 45%;
+  -webkit-transform-origin: 50% 100%;
+      -ms-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+}
+
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+.animicon-hour-container {
+  -webkit-animation: rotate 43200s infinite linear;
+          animation: rotate 43200s infinite linear;
+}
+
+.animicon-minute-container {
+  -webkit-animation: rotate 3600s infinite linear;
+          animation: rotate 3600s infinite linear;
+}
