@@ -1,5 +1,5 @@
 ---
-time: 1430888837
+time: 1430889980
 inventory:
   "/home/index.html":
     md5: 3c6beba84b0452502245fd399ab5445f
@@ -1258,39 +1258,6 @@ inventory:
   "/tmp/restart.txt":
     md5: d41d8cd98f00b204e9800998ecf8427e
     time: 1430888833
-  "/weather-icons/bower.json":
-    md5: d59d9adb2ff1bd74a71510e32fddfe00
-    time: 1430888833
-  "/weather-icons/css/README.md":
-    md5: 7f6370a0ba896fc709abcd70e7a2eb4f
-    time: 1430888833
-  "/weather-icons/css/weather-icons.css":
-    md5: ae11c89f77ce4546a225b9e305dbda4a
-    time: 1430888834
-  "/weather-icons/README.md":
-    md5: 694001f6adfa8fd27d230ad8b451e725
-    time: 1430888834
-  "/weather-icons/weather-icons/icon-classes.less":
-    md5: ffa1d905f4e342af0ce3c983fba9723f
-    time: 1430888834
-  "/weather-icons/weather-icons/README.md":
-    md5: f8cfda5bc862f56d105567f8cedb527e
-    time: 1430888834
-  "/weather-icons/weather-icons/variables.less":
-    md5: e37829e44a14cdd50048e68f4457cae8
-    time: 1430888834
-  "/weather-icons/weather-icons/weather-icons.less":
-    md5: 9a478caf39841f8d90ef7ef72092a841
-    time: 1430888834
-  "/weather-icons/weather-icons/weather-icons.min.less":
-    md5: cfe66fc69ad218df2101f57edcf29f73
-    time: 1430888834
-  "/css/styles.css":
-    md5: b03cb8cc51851565321e75107fd568c7
-    time: 1430888834
-  "/scss/styles.scss":
-    md5: 490ee4fd00ca5b8b225f1611444452e8
-    time: 1430888834
   "/config.codekit":
     md5: 0cd4427d7784c0cfd14dd8ca262d3308
     time: 1430888834
@@ -1306,3 +1273,9 @@ inventory:
   "/js/min/masonry.pkgd-min.js":
     md5: 4e91cd5cd980d22827573f7f7607815c
     time: 1430888834
+  "/css/styles.css":
+    md5: 0726eb9c10a555cd03f35c45d4842138
+    time: 1430889980
+  "/scss/styles.scss":
+    md5: 7c4bea81ed662d4861f87687a646df89
+    time: 1430889980
